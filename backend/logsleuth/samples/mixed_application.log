@@ -1,0 +1,51 @@
+{"timestamp": "2024-10-15T12:00:00Z", "level": "INFO", "source": "payment_service", "message": "Processed batch transaction #1000", "source_ip": "192.0.2.50"}
+{"timestamp": "2024-10-15T12:01:00Z", "level": "INFO", "source": "payment_service", "message": "Processed batch transaction #1001", "source_ip": "192.0.2.50"}
+{"timestamp": "2024-10-15T12:02:00Z", "level": "INFO", "source": "payment_service", "message": "Processed batch transaction #1002", "source_ip": "192.0.2.50"}
+{"timestamp": "2024-10-15T12:03:00Z", "level": "INFO", "source": "payment_service", "message": "Processed batch transaction #1003", "source_ip": "192.0.2.50"}
+{"timestamp": "2024-10-15T12:04:00Z", "level": "INFO", "source": "payment_service", "message": "Processed batch transaction #1004", "source_ip": "192.0.2.50"}
+{"timestamp": "2024-10-15T12:05:00Z", "level": "INFO", "source": "payment_service", "message": "Processed batch transaction #1005", "source_ip": "192.0.2.50"}
+{"timestamp": "2024-10-15T12:06:00Z", "level": "INFO", "source": "payment_service", "message": "Processed batch transaction #1006", "source_ip": "192.0.2.50"}
+{"timestamp": "2024-10-15T12:07:00Z", "level": "INFO", "source": "payment_service", "message": "Processed batch transaction #1007", "source_ip": "192.0.2.50"}
+{"timestamp": "2024-10-15T12:08:00Z", "level": "INFO", "source": "payment_service", "message": "Processed batch transaction #1008", "source_ip": "192.0.2.50"}
+{"timestamp": "2024-10-15T12:09:00Z", "level": "INFO", "source": "payment_service", "message": "Processed batch transaction #1009", "source_ip": "192.0.2.50"}
+{"timestamp": "2024-10-15T12:10:00Z", "level": "INFO", "source": "payment_service", "message": "Processed batch transaction #1010", "source_ip": "192.0.2.50"}
+{"timestamp": "2024-10-15T12:11:00Z", "level": "INFO", "source": "payment_service", "message": "Processed batch transaction #1011", "source_ip": "192.0.2.50"}
+{"timestamp": "2024-10-15T12:12:00Z", "level": "INFO", "source": "payment_service", "message": "Processed batch transaction #1012", "source_ip": "192.0.2.50"}
+{"timestamp": "2024-10-15T12:13:00Z", "level": "INFO", "source": "payment_service", "message": "Processed batch transaction #1013", "source_ip": "192.0.2.50"}
+{"timestamp": "2024-10-15T12:14:00Z", "level": "INFO", "source": "payment_service", "message": "Processed batch transaction #1014", "source_ip": "192.0.2.50"}
+{"timestamp": "2024-10-15T12:15:97Z", "level": "INFO", "source": "auth_gateway", "action": "login_success", "message": "User alice logged in successfully", "username": "alice", "source_ip": "192.0.2.10"}
+{"timestamp": "2024-10-15T12:15:98Z", "level": "INFO", "source": "auth_gateway", "action": "login_success", "message": "User bob logged in successfully", "username": "bob", "source_ip": "192.0.2.10"}
+{"timestamp": "2024-10-15T12:15:99Z", "level": "INFO", "source": "auth_gateway", "action": "login_success", "message": "User carol logged in successfully", "username": "carol", "source_ip": "192.0.2.10"}
+{"timestamp": "2024-10-15T12:18:00Z", "level": "WARN", "source": "api_gateway", "message": "Rate limit approaching for client token token_abc_0", "source_ip": "198.51.100.77"}
+{"timestamp": "2024-10-15T12:18:10Z", "level": "WARN", "source": "api_gateway", "message": "Rate limit approaching for client token token_abc_1", "source_ip": "198.51.100.77"}
+{"timestamp": "2024-10-15T12:18:20Z", "level": "WARN", "source": "api_gateway", "message": "Rate limit approaching for client token token_abc_2", "source_ip": "198.51.100.77"}
+{"timestamp": "2024-10-15T12:18:30Z", "level": "WARN", "source": "api_gateway", "message": "Rate limit approaching for client token token_abc_3", "source_ip": "198.51.100.77"}
+{"timestamp": "2024-10-15T12:18:40Z", "level": "WARN", "source": "api_gateway", "message": "Rate limit approaching for client token token_abc_4", "source_ip": "198.51.100.77"}
+{"timestamp": "2024-10-15T12:20:00Z", "level": "ERROR", "source": "inventory_service", "message": "Database timeout while querying product_catalog, retry 1/3 failed", "source_ip": "192.0.2.60"}
+{"timestamp": "2024-10-15T12:20:04Z", "level": "ERROR", "source": "inventory_service", "message": "Database timeout while querying product_catalog, retry 2/3 failed", "source_ip": "192.0.2.60"}
+{"timestamp": "2024-10-15T12:20:08Z", "level": "ERROR", "source": "inventory_service", "message": "Database timeout while querying product_catalog, retry 3/3 failed", "source_ip": "192.0.2.60"}
+{"timestamp": "2024-10-15T12:20:12Z", "level": "ERROR", "source": "inventory_service", "message": "Database timeout while querying product_catalog, retry 4/3 failed", "source_ip": "192.0.2.60"}
+{"timestamp": "2024-10-15T12:20:16Z", "level": "ERROR", "source": "inventory_service", "message": "Database timeout while querying product_catalog, retry 5/3 failed", "source_ip": "192.0.2.60"}
+{"timestamp": "2024-10-15T12:20:20Z", "level": "ERROR", "source": "inventory_service", "message": "Database timeout while querying product_catalog, retry 6/3 failed", "source_ip": "192.0.2.60"}
+{"timestamp": "2024-10-15T12:20:24Z", "level": "ERROR", "source": "inventory_service", "message": "Database timeout while querying product_catalog, retry 7/3 failed", "source_ip": "192.0.2.60"}
+{"timestamp": "2024-10-15T12:20:28Z", "level": "ERROR", "source": "inventory_service", "message": "Database timeout while querying product_catalog, retry 8/3 failed", "source_ip": "192.0.2.60"}
+{"timestamp": "2024-10-15T12:20:32Z", "level": "ERROR", "source": "inventory_service", "message": "Database timeout while querying product_catalog, retry 9/3 failed", "source_ip": "192.0.2.60"}
+{"timestamp": "2024-10-15T12:20:36Z", "level": "ERROR", "source": "inventory_service", "message": "Database timeout while querying product_catalog, retry 10/3 failed", "source_ip": "192.0.2.60"}
+{"timestamp": "2024-10-15T12:20:40Z", "level": "ERROR", "source": "inventory_service", "message": "Database timeout while querying product_catalog, retry 11/3 failed", "source_ip": "192.0.2.60"}
+{"timestamp": "2024-10-15T12:20:44Z", "level": "ERROR", "source": "inventory_service", "message": "Database timeout while querying product_catalog, retry 12/3 failed", "source_ip": "192.0.2.60"}
+{"timestamp": "2024-10-15T12:22:00Z", "level": "ERROR", "source": "auth_gateway", "action": "login_failed", "message": "Authentication failed for user svc_backup attempt 1", "username": "svc_backup", "source_ip": "203.0.113.88"}
+{"timestamp": "2024-10-15T12:22:05Z", "level": "ERROR", "source": "auth_gateway", "action": "login_failed", "message": "Authentication failed for user svc_backup attempt 2", "username": "svc_backup", "source_ip": "203.0.113.88"}
+{"timestamp": "2024-10-15T12:22:10Z", "level": "ERROR", "source": "auth_gateway", "action": "login_failed", "message": "Authentication failed for user svc_backup attempt 3", "username": "svc_backup", "source_ip": "203.0.113.88"}
+{"timestamp": "2024-10-15T12:22:15Z", "level": "ERROR", "source": "auth_gateway", "action": "login_failed", "message": "Authentication failed for user svc_backup attempt 4", "username": "svc_backup", "source_ip": "203.0.113.88"}
+{"timestamp": "2024-10-15T12:22:20Z", "level": "ERROR", "source": "auth_gateway", "action": "login_failed", "message": "Authentication failed for user svc_backup attempt 5", "username": "svc_backup", "source_ip": "203.0.113.88"}
+{"timestamp": "2024-10-15T12:22:25Z", "level": "ERROR", "source": "auth_gateway", "action": "login_failed", "message": "Authentication failed for user svc_backup attempt 6", "username": "svc_backup", "source_ip": "203.0.113.88"}
+{"timestamp": "2024-10-15T12:25:00Z", "level": "INFO", "source": "inventory_service", "message": "Database connection pool re-established. Queue depth: 10"}
+{"timestamp": "2024-10-15T12:25:05Z", "level": "INFO", "source": "inventory_service", "message": "Database connection pool re-established. Queue depth: 9"}
+{"timestamp": "2024-10-15T12:25:10Z", "level": "INFO", "source": "inventory_service", "message": "Database connection pool re-established. Queue depth: 8"}
+{"timestamp": "2024-10-15T12:25:15Z", "level": "INFO", "source": "inventory_service", "message": "Database connection pool re-established. Queue depth: 7"}
+{"timestamp": "2024-10-15T12:25:20Z", "level": "INFO", "source": "inventory_service", "message": "Database connection pool re-established. Queue depth: 6"}
+{"timestamp": "2024-10-15T12:25:25Z", "level": "INFO", "source": "inventory_service", "message": "Database connection pool re-established. Queue depth: 5"}
+{"timestamp": "2024-10-15T12:25:30Z", "level": "INFO", "source": "inventory_service", "message": "Database connection pool re-established. Queue depth: 4"}
+{"timestamp": "2024-10-15T12:25:35Z", "level": "INFO", "source": "inventory_service", "message": "Database connection pool re-established. Queue depth: 3"}
+{"timestamp": "2024-10-15T12:25:40Z", "level": "INFO", "source": "inventory_service", "message": "Database connection pool re-established. Queue depth: 2"}
+{"timestamp": "2024-10-15T12:25:45Z", "level": "INFO", "source": "inventory_service", "message": "Database connection pool re-established. Queue depth: 1"}

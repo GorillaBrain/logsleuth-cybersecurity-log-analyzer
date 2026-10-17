@@ -1,0 +1,41 @@
+Oct 15 08:00:01 webserver01 CRON[12100]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 15 08:00:05 webserver01 CRON[12100]: pam_unix(cron:session): session closed for user root
+Oct 15 08:12:30 webserver01 sshd[12150]: Connection from 192.0.2.10 port 49200 on 192.0.2.1 port 22
+Oct 15 08:12:32 webserver01 sshd[12150]: Accepted publickey for alice from 192.0.2.10 port 49200 ssh2: RSA SHA256:abc123xyz
+Oct 15 08:12:32 webserver01 sshd[12150]: pam_unix(sshd:session): session opened for user alice by (uid=0)
+Oct 15 08:14:10 webserver01 sudo[12160]:    alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/bin/systemctl status nginx
+Oct 15 08:14:10 webserver01 sudo[12160]: pam_unix(sudo:session): session opened for user root by alice(uid=0)
+Oct 15 08:14:12 webserver01 sudo[12160]: pam_unix(sudo:session): session closed for user root
+Oct 15 08:20:00 webserver01 sudo[12170]:    alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/tail -n 50 /var/log/syslog
+Oct 15 08:20:00 webserver01 sudo[12170]: pam_unix(sudo:session): session opened for user root by alice(uid=0)
+Oct 15 08:20:01 webserver01 sudo[12170]: pam_unix(sudo:session): session closed for user root
+Oct 15 08:35:14 webserver01 sshd[12150]: pam_unix(sshd:session): session closed for user alice
+Oct 15 09:00:01 webserver01 CRON[12200]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 15 09:00:03 webserver01 CRON[12200]: pam_unix(cron:session): session closed for user root
+Oct 15 09:15:22 webserver01 sshd[12240]: Connection from 192.0.2.10 port 50122 on 192.0.2.1 port 22
+Oct 15 09:15:25 webserver01 sshd[12240]: Accepted password for bob from 192.0.2.10 port 50122 ssh2
+Oct 15 09:15:25 webserver01 sshd[12240]: pam_unix(sshd:session): session opened for user bob by (uid=0)
+Oct 15 09:18:40 webserver01 sudo[12255]:      bob : TTY=pts/1 ; PWD=/home/bob ; USER=root ; COMMAND=/bin/cat /etc/hosts
+Oct 15 09:18:40 webserver01 sudo[12255]: pam_unix(sudo:session): session opened for user root by bob(uid=0)
+Oct 15 09:18:41 webserver01 sudo[12255]: pam_unix(sudo:session): session closed for user root
+Oct 15 09:30:10 webserver01 sshd[12240]: pam_unix(sshd:session): session closed for user bob
+Oct 15 10:00:01 webserver01 CRON[12300]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 15 10:00:04 webserver01 CRON[12300]: pam_unix(cron:session): session closed for user root
+Oct 15 10:10:05 webserver01 sshd[12320]: Connection from 192.0.2.10 port 51044 on 192.0.2.1 port 22
+Oct 15 10:10:08 webserver01 sshd[12320]: Accepted publickey for alice from 192.0.2.10 port 51044 ssh2: RSA SHA256:abc123xyz
+Oct 15 10:10:08 webserver01 sshd[12320]: pam_unix(sshd:session): session opened for user alice by (uid=0)
+Oct 15 10:15:30 webserver01 sudo[12335]:    alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/uptime
+Oct 15 10:15:30 webserver01 sudo[12335]: pam_unix(sudo:session): session opened for user root by alice(uid=0)
+Oct 15 10:15:31 webserver01 sudo[12335]: pam_unix(sudo:session): session closed for user root
+Oct 15 10:25:50 webserver01 sshd[12320]: pam_unix(sshd:session): session closed for user alice
+Oct 15 11:00:01 webserver01 CRON[12400]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 15 11:00:02 webserver01 CRON[12400]: pam_unix(cron:session): session closed for user root
+Oct 15 11:15:00 webserver01 sshd[12420]: Connection from 192.0.2.10 port 52180 on 192.0.2.1 port 22
+Oct 15 11:15:03 webserver01 sshd[12420]: Accepted password for bob from 192.0.2.10 port 52180 ssh2
+Oct 15 11:15:03 webserver01 sshd[12420]: pam_unix(sshd:session): session opened for user bob by (uid=0)
+Oct 15 11:20:10 webserver01 sudo[12435]:      bob : TTY=pts/1 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/free -m
+Oct 15 11:20:10 webserver01 sudo[12435]: pam_unix(sudo:session): session opened for user root by bob(uid=0)
+Oct 15 11:20:11 webserver01 sudo[12435]: pam_unix(sudo:session): session closed for user root
+Oct 15 11:45:18 webserver01 sshd[12420]: pam_unix(sshd:session): session closed for user bob
+Oct 15 12:00:01 webserver01 CRON[12500]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 15 12:00:03 webserver01 CRON[12500]: pam_unix(cron:session): session closed for user root

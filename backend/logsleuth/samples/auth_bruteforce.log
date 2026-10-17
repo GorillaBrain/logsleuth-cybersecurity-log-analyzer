@@ -1,0 +1,53 @@
+Oct 15 08:10:00 webserver01 sshd[20101]: Connection from 192.0.2.10 port 41200 on 192.0.2.1 port 22
+Oct 15 08:10:02 webserver01 sshd[20101]: Accepted publickey for alice from 192.0.2.10 port 41200 ssh2
+Oct 15 08:10:02 webserver01 sshd[20101]: pam_unix(sshd:session): session opened for user alice by (uid=0)
+Oct 15 08:12:15 webserver01 sudo[20110]:    alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/bin/ls -la /var/log
+Oct 15 08:12:15 webserver01 sudo[20110]: pam_unix(sudo:session): session opened for user root by alice(uid=0)
+Oct 15 08:12:16 webserver01 sudo[20110]: pam_unix(sudo:session): session closed for user root
+Oct 15 08:15:30 webserver01 sudo[20115]:    alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/df -h
+Oct 15 08:15:30 webserver01 sudo[20115]: pam_unix(sudo:session): session opened for user root by alice(uid=0)
+Oct 15 08:15:31 webserver01 sudo[20115]: pam_unix(sudo:session): session closed for user root
+Oct 15 08:25:00 webserver01 sshd[20101]: pam_unix(sshd:session): session closed for user alice
+Oct 15 09:00:02 webserver01 sshd[21010]: Failed password for root from 198.51.100.23 port 55101 ssh2
+Oct 15 09:00:07 webserver01 sshd[21011]: Failed password for root from 198.51.100.23 port 55102 ssh2
+Oct 15 09:00:12 webserver01 sshd[21012]: Failed password for root from 198.51.100.23 port 55103 ssh2
+Oct 15 09:00:17 webserver01 sshd[21013]: Failed password for root from 198.51.100.23 port 55104 ssh2
+Oct 15 09:01:02 webserver01 sshd[21014]: Failed password for admin from 198.51.100.23 port 55105 ssh2
+Oct 15 09:01:07 webserver01 sshd[21015]: Failed password for admin from 198.51.100.23 port 55106 ssh2
+Oct 15 09:01:12 webserver01 sshd[21016]: Failed password for admin from 198.51.100.23 port 55107 ssh2
+Oct 15 09:01:17 webserver01 sshd[21017]: Failed password for admin from 198.51.100.23 port 55108 ssh2
+Oct 15 09:02:02 webserver01 sshd[21018]: Failed password for user from 198.51.100.23 port 55109 ssh2
+Oct 15 09:02:07 webserver01 sshd[21019]: Failed password for user from 198.51.100.23 port 55110 ssh2
+Oct 15 09:02:12 webserver01 sshd[21020]: Failed password for user from 198.51.100.23 port 55111 ssh2
+Oct 15 09:02:17 webserver01 sshd[21021]: Failed password for user from 198.51.100.23 port 55112 ssh2
+Oct 15 09:03:02 webserver01 sshd[21022]: Failed password for test from 198.51.100.23 port 55113 ssh2
+Oct 15 09:03:07 webserver01 sshd[21023]: Failed password for test from 198.51.100.23 port 55114 ssh2
+Oct 15 09:03:12 webserver01 sshd[21024]: Failed password for test from 198.51.100.23 port 55115 ssh2
+Oct 15 09:03:17 webserver01 sshd[21025]: Failed password for test from 198.51.100.23 port 55116 ssh2
+Oct 15 09:04:02 webserver01 sshd[21026]: Failed password for oracle from 198.51.100.23 port 55117 ssh2
+Oct 15 09:04:07 webserver01 sshd[21027]: Failed password for oracle from 198.51.100.23 port 55118 ssh2
+Oct 15 09:04:12 webserver01 sshd[21028]: Failed password for oracle from 198.51.100.23 port 55119 ssh2
+Oct 15 09:04:17 webserver01 sshd[21029]: Failed password for oracle from 198.51.100.23 port 55120 ssh2
+Oct 15 09:06:00 webserver01 sshd[21030]: Failed password for admin from 198.51.100.23 port 55121 ssh2
+Oct 15 09:06:08 webserver01 sshd[21031]: Failed password for admin from 198.51.100.23 port 55122 ssh2
+Oct 15 09:06:16 webserver01 sshd[21032]: Failed password for admin from 198.51.100.23 port 55123 ssh2
+Oct 15 09:06:24 webserver01 sshd[21033]: Failed password for admin from 198.51.100.23 port 55124 ssh2
+Oct 15 09:06:32 webserver01 sshd[21034]: Failed password for admin from 198.51.100.23 port 55125 ssh2
+Oct 15 09:06:40 webserver01 sshd[21035]: Failed password for admin from 198.51.100.23 port 55126 ssh2
+Oct 15 09:06:48 webserver01 sshd[21036]: Failed password for admin from 198.51.100.23 port 55127 ssh2
+Oct 15 09:06:56 webserver01 sshd[21037]: Failed password for admin from 198.51.100.23 port 55128 ssh2
+Oct 15 09:07:04 webserver01 sshd[21038]: Failed password for admin from 198.51.100.23 port 55129 ssh2
+Oct 15 09:07:12 webserver01 sshd[21039]: Failed password for admin from 198.51.100.23 port 55130 ssh2
+Oct 15 09:07:20 webserver01 sshd[21040]: Failed password for admin from 198.51.100.23 port 55131 ssh2
+Oct 15 09:07:28 webserver01 sshd[21041]: Failed password for admin from 198.51.100.23 port 55132 ssh2
+Oct 15 09:07:36 webserver01 sshd[21042]: Failed password for admin from 198.51.100.23 port 55133 ssh2
+Oct 15 09:07:44 webserver01 sshd[21043]: Failed password for admin from 198.51.100.23 port 55134 ssh2
+Oct 15 09:07:52 webserver01 sshd[21044]: Failed password for admin from 198.51.100.23 port 55135 ssh2
+Oct 15 09:08:45 webserver01 sshd[21045]: Accepted password for admin from 198.51.100.23 port 55136 ssh2
+Oct 15 09:08:45 webserver01 sshd[21046]: pam_unix(sshd:session): session opened for user admin by (uid=0)
+Oct 15 09:30:00 webserver01 CRON[22100]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 15 09:30:02 webserver01 CRON[22100]: pam_unix(cron:session): session closed for user root
+Oct 15 09:40:10 webserver01 sshd[22150]: Connection from 192.0.2.10 port 44320 on 192.0.2.1 port 22
+Oct 15 09:40:12 webserver01 sshd[22150]: Accepted publickey for alice from 192.0.2.10 port 44320 ssh2
+Oct 15 09:40:12 webserver01 sshd[22150]: pam_unix(sshd:session): session opened for user alice by (uid=0)
+Oct 15 09:50:00 webserver01 sshd[22150]: pam_unix(sshd:session): session closed for user alice
