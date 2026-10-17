@@ -1,5 +1,6 @@
 # LogSleuth — Cybersecurity Log Analyzer & SOC Investigation Platform
 
+[![Vercel Deployment](https://img.shields.io/badge/Deployed_on-Vercel-black?style=flat&logo=vercel)](https://logsleuth-cybersecurity-log-analyze.vercel.app)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.109+-009688?style=flat&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
 [![React](https://img.shields.io/badge/React-19.2+-61DAFB?style=flat&logo=react&logoColor=black)](https://react.dev)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.6+-3178C6?style=flat&logo=typescript&logoColor=white)](https://www.typescriptlang.org)
@@ -9,7 +10,18 @@
 
 > **LogSleuth** is a defensive cybersecurity log analysis and incident investigation platform designed for SOC analysts, cybersecurity students, and defenders. It ingests diverse log streams, normalizes them into structured events, detects suspicious adversary activity using transparent rule-based heuristics, extracts observables (IOCs), and provides an interactive triage workspace with full client-side privacy.
 
+## 🌐 Live Production Demo
+
+The production application is live, free, and publicly accessible on Vercel:
+👉 **[https://logsleuth-cybersecurity-log-analyze.vercel.app](https://logsleuth-cybersecurity-log-analyze.vercel.app)**
+
+- **Zero-Latency Client-Side Processing**: All parsing and detection run locally inside browser memory.
+- **Privacy-Preserving**: No logs, tokens, or credentials leave your workstation.
+- **Instant Triage**: Four bundled synthetic incident datasets available for one-click analysis without uploading files.
+- **Audit-Ready Reporting**: Export findings as JSON/CSV or generate a sanitized Print-to-PDF security report.
+
 ---
+
 
 ## 🛡️ Key Features
 
